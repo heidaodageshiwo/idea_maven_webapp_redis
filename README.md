@@ -3,6 +3,7 @@
 
 
 <ul>
-  <li><a href="www.zhangqiang2017.com" target="_blank">我的博客</a></li>
- 
+  <li>[我的博客](http://www.zhangqiang2017.com)</li>
+  <a href="#" target="_blank">文字</a>
+  window.location.href=""
 </ul>
