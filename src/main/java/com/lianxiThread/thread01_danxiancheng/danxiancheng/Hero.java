@@ -8,7 +8,7 @@ public class Hero{
 
     public void attackHero(Hero h) {
         try {
-            //为了表示攻击需要时间，每次攻击暂停1000毫秒
+            //为了表示攻击需要时间，每次攻击暂停1000毫秒1
             Thread.sleep(1000);
         } catch (InterruptedException e) {
             // TODO Auto-generated catch block
