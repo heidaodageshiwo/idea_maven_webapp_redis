@@ -5,6 +5,14 @@ import com.lianxiThread.thread01_danxiancheng.danxiancheng.Hero;
 
 public class TestThread {
 
+    /**
+     * 使用多线程，就可以做到盖伦在攻击提莫的同时，赏金猎人也在攻击盲僧
+     设计一个类KillThread 继承Thread，并且重写run方法
+     启动线程办法： 实例化一个KillThread对象，并且调用其start方法
+     就可以观察到 赏金猎人攻击盲僧的同时，盖伦也在攻击提莫
+
+     * @param args
+     */
     public static void main(String[] args) {
 
         Hero gareen = new Hero();
